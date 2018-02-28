@@ -1,3 +1,6 @@
 [submodule "spring"]
 	path = spring
 	url = https://github.com/jeemyeong/spring.git
+[submodule "SpringInAction"]
+	path = SpringInAction
+	url = https://github.com/Jpub/SpringInAction.git
