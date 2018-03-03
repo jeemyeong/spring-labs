@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    <bean id="compactDisc" class="com.jeemyeong.BlankDisc"
+          c:_0="Sgt. Pepper's Lonely Hearts Club Band"
+          c:_1="The Beatles" />
+    <bean class="com.jeemyeong.CDPlayer">
+        <qualifier type="com.jeemyeong.annotation.Player" value="cdPlayer"/>
+    </bean>
+    <!--<bean id="cdPlayer" class="com.jeemyeong.CDPlayer"/>-->
+    <bean id="dvdPlayer" class="com.jeemyeong.DVDPlayer"/>
+
+
+</beans>
+
