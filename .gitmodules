@@ -7,3 +7,6 @@
 [submodule "petclinic-spring5-reactive"]
 	path = petclinic-spring5-reactive
 	url = https://github.com/ssouris/petclinic-spring5-reactive.git
+[submodule "springboot2-reactive-kotlin"]
+	path = springboot2-reactive-kotlin
+	url = https://github.com/tginsberg/springboot2-reactive-kotlin.git
