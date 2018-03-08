@@ -4,3 +4,6 @@
 [submodule "SpringInAction"]
 	path = SpringInAction
 	url = https://github.com/Jpub/SpringInAction.git
+[submodule "petclinic-spring5-reactive"]
+	path = petclinic-spring5-reactive
+	url = https://github.com/ssouris/petclinic-spring5-reactive.git
