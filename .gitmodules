@@ -10,3 +10,6 @@
 [submodule "springboot2-reactive-kotlin"]
 	path = springboot2-reactive-kotlin
 	url = https://github.com/tginsberg/springboot2-reactive-kotlin.git
+[submodule "spring-reactive-sample"]
+	path = spring-reactive-sample
+	url = https://github.com/hantsy/spring-reactive-sample.git
